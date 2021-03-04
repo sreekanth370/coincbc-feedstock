@@ -2,8 +2,9 @@
 # update the conda-forge.yml and/or the recipe/meta.yaml.
 
 language: generic
-
-
+arch:
+  - amd64
+  - ppc64le
 
 matrix:
   include:
